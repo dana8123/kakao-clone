@@ -1,0 +1,30 @@
+html,body{
+    background-color: royalblue;
+    margin: 0px;  
+    padding: 0px;
+    height: 100%;
+    width: 100%
+}
+.mother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.pinkbox{
+    background-color: mediumvioletred;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+}
+.box{
+    background-color: lightslategray;
+    width: 100px;
+    height: 100px;
+}
+.pinkbox: hover .box{
+    background-color: red;
+}

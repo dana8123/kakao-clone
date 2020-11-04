@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Jomolhari', serif;
+}
+.box{
+    widows: 410px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__one{
+    width: 400px;
+}
+.box__one .title{
+    font-size: 50px;
+}
+.box__one .text{
+    opacity: 0.7;
+}
+.box__two{
+    height:300px;
+    width: 400px;
+}
+.box__two .picture{
+    width: 360px;
+    height: 300px;
+}
+.box__two .name{
+    font-size: 10px;
+}

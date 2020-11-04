@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(128, 196, 196);
+}
+.box{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    animation: spin 1s infinite ease-in-out;
+
+}
+.dot{
+    border-radius: 100%;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotatez(0deg)
+    }
+    100%{
+        transform: rotatez(180deg);
+    }
+}
